@@ -1,0 +1,10 @@
+baidu_aip==4.16.11
+keyboard==0.13.5
+Pillow==8.2.0
+Pillow==9.5.0
+PyAudio==0.2.13
+PyAutoGUI==0.9.53
+pynput==1.7.6
+pyperclip==1.8.2
+pyttsx3==2.90
+tqdm==4.59.0

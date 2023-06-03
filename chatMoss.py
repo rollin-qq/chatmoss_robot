@@ -49,8 +49,8 @@ while True:
             pyautogui.mouseUp()
             pyautogui.hotkey('ctrl', 'c')
             time_str = pyperclip.paste()
-            # print(time_str)
-            time_list.append(datetime.strptime(time_str, '%Y/%m/%d %H:%M:%S'))
+            print(time_str[2:])
+            time_list.append(datetime.strptime(time_str[2:], '%Y/%m/%d %H:%M:%S'))
 
         #找出最新的robot回复最新时间，如果大于已读取时间择进行语音合成等后续操作 
                  
